@@ -7,7 +7,7 @@ module.exports = {
       'Software Engineer.',
     siteUrl: 'https://github.com/MansourTarekMansour/portfolio', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@Mansour_Tarek13',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
