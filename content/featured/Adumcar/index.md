@@ -1,17 +1,16 @@
 ---
 date: '3'
-title: 'Adumcar'
-cover: './adumcar_pic.png'
-external: 'https://play.google.com/store/apps/details?id=com.adum.car&pcampaignid=web_share'
+title: 'AI Chat-Bot'
+cover: './AI_ChatBot.png'
+external: ''
+github: 'https://github.com/MansourTarekMansour/chatbot'
 cta: ''
 tech:
-  - Futter
-  - Dart
+  - Laravel
+  - GPT-4
   - API
-  - Bloc
-  - Figma
+  - MySQL
+  - Blade
 ---
 
-Vehicle Marketplace Mobile App.
-Developed a mobile app for vehicle buying and selling using Flutter, I worked a new version of it at 
-[@Dipdux Analytica](https://www.linkedin.com/company/dipduxanalytica/posts/?feedView=all)
+This project is a full-stack AI chat application built with Laravel and integrated with OpenAI's GPT-4 model. It provides users with an interface to interact with an AI assistant through dynamic chat sessions. Chats are persisted in a database, allowing users to revisit conversations and maintain a history of interactions.

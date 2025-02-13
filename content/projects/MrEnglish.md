@@ -15,3 +15,4 @@ showInProjects: true
 ---
 
 Educational Mobile App for enhancing test-taking skills using Flutter, Integrated Firebase backend services and Bloc state management.
+[@Dipdux Analytica](https://www.linkedin.com/company/dipduxanalytica/posts/?feedView=all)
