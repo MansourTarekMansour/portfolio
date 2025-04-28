@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://github.com/MansourTarekMansour/sitemap.xml
-Host: https://github.com
+Sitemap: https://mansourtarekmansour.github.io/sitemap.xml
+Host: https://mansourtarekmansour.github.io
