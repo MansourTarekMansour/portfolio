@@ -15,7 +15,7 @@
   "homepage": "https://MansourTarekMansour.github.io/portfolio",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && gatsby build",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",

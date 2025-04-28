@@ -1,11 +1,11 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/portfolio',
   siteMetadata: {
     title: 'Mansour Tarek',
-    description:
-      'Software Engineer.',
-    siteUrl: 'https://github.com/MansourTarekMansour/portfolio', // No trailing slash allowed!
+    description: 'Software Engineer.',
+    siteUrl: 'https://mansourtarekmansour.github.io/portfolio', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@Mansour_Tarek13',
   },
