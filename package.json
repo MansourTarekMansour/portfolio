@@ -12,15 +12,16 @@
   ],
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
+  "homepage": "https://MansourTarekMansour.github.io/portfolio",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "build": "gatsby build",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "predeploy": "gatsby build",
+    "deploy": "gh-pages -d public"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
