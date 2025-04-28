@@ -4,23 +4,33 @@ const IconLoader = () => (
   <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
     <title>Loader Logo</title>
     <g>
-      <g id="B" transform="translate(11.000000, 5.000000)">
-        <path
-          d="M 26 30 L 26 66 L 38 54 L 50 66 L 50 30 L 38 42 L 26 30"
-          fill="currentColor"
-        />
-      </g>
+      {/* M Letter in the Center */}
+      <text
+        x="50%"
+        y="55%"
+        textAnchor="middle"
+        dominantBaseline="middle"
+        fontSize="40"
+        fill="currentColor"
+        fontFamily="Arial, Helvetica, sans-serif"
+        fontWeight="bold">
+        M
+      </text>
+
+      {/* Hexagon Shape around it */}
       <path
         stroke="currentColor"
         strokeWidth="5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M 50, 5
-                  L 11, 27
-                  L 11, 72
-                  L 50, 95
-                  L 89, 73
-                  L 89, 28 z"
+        fill="none"
+        d="M 50,5
+           L 11,27
+           L 11,72
+           L 50,95
+           L 89,73
+           L 89,28
+           Z"
       />
     </g>
   </svg>

@@ -65,10 +65,10 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Laravel Back-End Developer • Flutter Mobile Developer.<br></br>
-        nowdays I work as a freelancer at{' '}
-        <a href="https://www.upwork.com/freelancers/~0118c1d1d004110850?mp_source=share" target="_blank" rel="noreferrer">
-          upwork
+        Laravel Back-End Developer • Flutter Mobile Developer.<br></br>I work as Backend Developer
+        at{' '}
+        <a href="https://www.linkedin.com/company/zeem-sa/" target="_blank" rel="noreferrer">
+          Zeem
         </a>
         .
       </p>

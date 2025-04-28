@@ -125,7 +125,22 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['PHP', 'Laravel', 'Flutter', 'Dart', 'Firebase', 'WordPress', 'Databases', 'HTML & CSS', 'Bootstrap', 'C/C++', 'APIs', 'MySQL', 'Jira', 'Postman'];
+  const skills = [
+    'PHP',
+    'Laravel',
+    'Flutter',
+    'Dart',
+    'Firebase',
+    'WordPress',
+    'Databases',
+    'HTML & CSS',
+    'Bootstrap',
+    'C/C++',
+    'APIs',
+    'MySQL',
+    'Jira',
+    'Postman',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,9 +150,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            Hello! I’m Mansour Tarek, a passionate and dedicated Mid-Level Flutter Developer with 2 years of experience and a Junior Laravel Developer with 1 year of experience. I specialize in building cross-platform mobile applications using Flutter and developing robust back-end systems with Laravel.
-            I have a strong foundation in data structures and algorithms, which I honed through participation in competitive programming competitions. My problem-solving skills and attention to detail enable me to create efficient, scalable, and user-friendly applications.
-            I am constantly seeking opportunities to improve my programming skills and stay updated with the latest technologies. My goal is to contribute to innovative projects, collaborate with talented teams, and deliver high-quality solutions that make a meaningful impact.
+              Hello! I’m Mansour Tarek, a passionate Flutter and Laravel Developer specializing in
+              building cross-platform mobile applications and developing robust back-end systems.
+              With a strong foundation in data structures, algorithms, and a background in
+              competitive programming, I focus on creating efficient, scalable, and user-friendly
+              solutions. I’m committed to continuous learning, innovation, and delivering
+              high-quality applications that drive real impact.
             </p>
             {/* <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
