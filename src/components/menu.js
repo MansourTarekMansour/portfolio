@@ -6,6 +6,7 @@ import { navLinks } from '@config';
 import { KEY_CODES } from '@utils';
 import { useOnClickOutside } from '@hooks';
 
+
 const StyledMenu = styled.div`
   display: none;
 
@@ -266,7 +267,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            <a href="/portfolio/resume.pdf" className="resume-link">
               Resume
             </a>
           </nav>
