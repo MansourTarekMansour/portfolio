@@ -268,6 +268,7 @@ const StyledProject = styled.li`
       inset: 0;
       background: rgba(16, 188, 142, 0.26); /* light blue overlay */
       backdrop-filter: blur(4px); /* subtle blur */
+      -webkit-backdrop-filter: blur(4px); /* Add this */
       border-radius: var(--border-radius);
       z-index: 2;
       transition: all 0.3s ease;
