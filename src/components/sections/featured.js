@@ -241,7 +241,6 @@ const StyledProject = styled.li`
   }
 
   .project-image {
-    ${({ theme }) => theme.mixins.boxShadow};
     grid-column: 6 / -1;
     grid-row: 1 / -1;
     position: relative;
@@ -254,51 +253,45 @@ const StyledProject = styled.li`
     }
 
     a {
+      display: block;
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      position: relative;
       border-radius: var(--border-radius);
-      vertical-align: middle;
-
-      &:hover,
-      &:focus {
-        background: transparent;
-        outline: 0;
-
-        &:before,
-        .img {
-          background: transparent;
-          filter: none;
-        }
-      }
-
-      &:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 3;
-        transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
-      }
+      overflow: hidden;
     }
 
-    .img {
+    /* Blur and blue tint (light) */
+    a::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(16, 188, 142, 0.26); /* light blue overlay */
+      backdrop-filter: blur(4px); /* subtle blur */
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      z-index: 2;
+      transition: all 0.3s ease;
+    }
 
-      @media (max-width: 768px) {
-        object-fit: cover;
-        width: auto;
-        height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
-      }
+    /* Remove blur + tint on hover */
+    a:hover::before,
+    a:focus::before {
+      background: transparent;
+      backdrop-filter: none;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: var(--border-radius);
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    a:hover img,
+    a:focus img {
+      transform: scale(1.01); /* gentle zoom */
     }
   }
 `;
@@ -403,7 +396,7 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
+                    <GatsbyImage image={image} alt={title} />
                   </a>
                 </div>
               </StyledProject>
