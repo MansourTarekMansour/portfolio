@@ -33,11 +33,11 @@ self.__precacheManifest = [
     "url": "framework-1c199377d5421f8e7ab4.js"
   },
   {
-    "url": "app-fb050c8f44765d1c11a8.js"
+    "url": "app-ca163e25a1c318c78f38.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "ffb55931fe2d38816265059007285237"
+    "revision": "ec699750658fb5df252d81dfbc8b2c49"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -45,7 +45,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "57c4bc7b6d579ecc26d5c3b48c7508fa"
+    "revision": "9866336f3937e61242b339ddddaa5f5c"
   },
   {
     "url": "polyfill-543b336484eed5784f5d.js"
@@ -144,7 +144,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/portfolio/app-fb050c8f44765d1c11a8.js`))) {
+  if (!resources || !(await caches.match(`/portfolio/app-ca163e25a1c318c78f38.js`))) {
     return await fetch(event.request)
   }
 
