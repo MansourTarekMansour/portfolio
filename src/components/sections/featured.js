@@ -296,6 +296,7 @@ const StyledProject = styled.li`
     a:focus img {
       transform: scale(1.01); /* gentle zoom */
       filter: none;
+      backdrop-filter: none;
     }
   }
 `;
