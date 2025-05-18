@@ -266,12 +266,14 @@ const StyledProject = styled.li`
       content: '';
       position: absolute;
       inset: 0;
-      background: rgba(16, 188, 142, 0.26); /* light blue overlay */
-      backdrop-filter: blur(4px); /* subtle blur */
-      -webkit-backdrop-filter: blur(4px); /* Add this */
+      background: rgba(16, 188, 142, 0.26);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
       border-radius: var(--border-radius);
       z-index: 2;
+      opacity: 1;
       transition: all 0.3s ease;
+      pointer-events: none;
     }
 
     /* Remove blur + tint on hover */
@@ -279,6 +281,8 @@ const StyledProject = styled.li`
     a:focus::before {
       background: transparent;
       backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+      opacity: 0;
     }
 
     img {
@@ -287,12 +291,14 @@ const StyledProject = styled.li`
       object-fit: cover;
       border-radius: var(--border-radius);
       display: block;
-      transition: transform 0.3s ease;
+      filter: blur(4px);
+      transition: filter 0.3s ease;
     }
 
     a:hover img,
     a:focus img {
       transform: scale(1.01); /* gentle zoom */
+      filter: none;
     }
   }
 `;
