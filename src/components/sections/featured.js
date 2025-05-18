@@ -268,7 +268,6 @@ const StyledProject = styled.li`
       inset: 0;
       background: rgba(16, 188, 142, 0.26);
       backdrop-filter: blur(4px);
-      -webkit-backdrop-filter: blur(4px);
       border-radius: var(--border-radius);
       z-index: 2;
       opacity: 1;
@@ -281,7 +280,6 @@ const StyledProject = styled.li`
     a:focus::before {
       background: transparent;
       backdrop-filter: none;
-      -webkit-backdrop-filter: none;
       opacity: 0;
     }
 
@@ -291,7 +289,6 @@ const StyledProject = styled.li`
       object-fit: cover;
       border-radius: var(--border-radius);
       display: block;
-      filter: blur(4px);
       transition: filter 0.3s ease;
     }
 
