@@ -1,7 +1,6 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/portfolio',
   siteMetadata: {
     title: 'Mansour Tarek',
     description: 'Software Engineer.',
@@ -22,7 +21,7 @@ module.exports = {
       options: {
         name: 'Mansour Tarek',
         short_name: 'Mansour Tarek',
-        start_url: '/portfolio/',
+        start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
