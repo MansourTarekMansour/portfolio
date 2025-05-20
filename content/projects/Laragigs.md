@@ -2,7 +2,8 @@
 date: '98'
 title: 'Laragigs'
 github: 'https://github.com/MansourTarekMansour/laragigs'
-external: 'http://laragigs-mansour.infinityfreeapp.com/?i=1'
+external: 'https://github.com/MansourTarekMansour/laragigs'
+
 tech:
   - Laravel
   - PHP

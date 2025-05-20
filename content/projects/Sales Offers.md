@@ -2,7 +2,7 @@
 date: '92'
 title: 'Sales Offers'
 github: 'https://github.com/MansourTarekMansour/sales-offers'
-external: ''
+external: 'https://github.com/MansourTarekMansour/sales-offers'
 tech:
   - Laravel
   - PHP

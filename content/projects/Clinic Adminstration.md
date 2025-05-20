@@ -2,7 +2,7 @@
 date: '97'
 title: 'Clinic Adminstration'
 github: 'https://github.com/MansourTarekMansour/clinic_administration'
-external: ''
+external: 'https://github.com/MansourTarekMansour/clinic_administration'
 tech:
   - Laravel
   - PHP

@@ -2,7 +2,7 @@
 date: '93'
 title: 'Todo'
 github: 'https://github.com/MansourTarekMansour/clinic_administration'
-external: ''
+external: 'https://github.com/MansourTarekMansour/clinic_administration'
 tech:
   - Flutter
   - Dart

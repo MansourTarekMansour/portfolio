@@ -286,7 +286,7 @@ const StyledProject = styled.li`
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       border-radius: var(--border-radius);
       display: block;
       transition: filter 0.3s ease;
@@ -314,7 +314,7 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+                  gatsbyImageData(width: 700, placeholder: DOMINANT_COLOR, formats: [AUTO, WEBP, AVIF])
                 }
               }
               tech

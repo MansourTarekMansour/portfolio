@@ -2,7 +2,7 @@
 date: '99'
 title: 'Mr English'
 github: ''
-external: 'https://play.google.com/store/apps/details?id=com.mrenglish.app&pcampaignid=web_share'
+external: 'https://www.linkedin.com/company/dipduxanalytica'
 tech:
   - Flutter
   - Dart
