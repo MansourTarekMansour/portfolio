@@ -2,8 +2,8 @@
 date: '2'
 title: 'Flutter E-Commerce Application'
 cover: './ecommerce.png'
-github: 'https://github.com/MansourTarekMansour/Ecommerce_application'
-external: ''
+# github: 'https://github.com/MansourTarekMansour/Ecommerce_application'
+external: 'https://github.com/MansourTarekMansour/Ecommerce_application'
 tech:
   - Flutter
   - Dart

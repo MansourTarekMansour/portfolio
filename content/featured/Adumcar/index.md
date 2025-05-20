@@ -2,8 +2,8 @@
 date: '3'
 title: 'AI Chat-Bot'
 cover: './AI_ChatBot.png'
-external: ''
-github: 'https://github.com/MansourTarekMansour/chatbot'
+external: 'https://github.com/MansourTarekMansour/chatbot'
+# github: 'https://github.com/MansourTarekMansour/chatbot'
 cta: ''
 tech:
   - Laravel
