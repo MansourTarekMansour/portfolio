@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Mansour Tarek',
     description: 'Software Engineer.',
-    siteUrl: 'https://mansourtarekmansour.github.io/portfolio', // No trailing slash allowed!
+    siteUrl: 'https://mansourtarekmansour.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@Mansour_Tarek13',
   },
